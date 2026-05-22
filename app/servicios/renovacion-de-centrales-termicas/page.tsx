@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Renovación de Centrales Térmicas',
@@ -14,7 +15,15 @@ export default function RenovacionCentralesTermicas() {
         <span className="mx-2">›</span>
         <span className="text-gray-900 dark:text-gray-200">Renovación de Centrales Térmicas</span>
       </nav>
-      <h1 className="text-4xl font-bold text-neb-black dark:text-white mb-6">Renovación de Centrales Térmicas</h1>
+
+      {/* Banner */}
+      <div className="relative w-full h-52 rounded-2xl overflow-hidden mb-10">
+        <Image src="https://www.nebchile.cl/hubfs/nebchile-servicios-9.jpg" alt="Renovación de Centrales Térmicas NEB Chile" fill className="object-cover" priority />
+        <div className="absolute inset-0 bg-black/50 flex items-end p-8">
+          <h1 className="text-4xl font-bold text-white">Renovación de Centrales Térmicas</h1>
+        </div>
+      </div>
+
       <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
         Renovamos tu Central Térmica, con la mejor tecnología del mercado. Contamos con el respaldo de marcas reconocidas en el rubro, y con un departamento de Ingeniería y Montaje especializado, para hacer frente a la evolución de la tecnología en las centrales del país.
       </p>
