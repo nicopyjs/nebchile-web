@@ -18,7 +18,11 @@ export interface Post extends PostSummary {
 }
 
 export function getPosts(): PostSummary[] {
-  return postsIndex as PostSummary[]
+  return (postsIndex as PostSummary[]).sort((a, b) => {
+    if (!a.date) return 1
+    if (!b.date) return -1
+    return new Date(b.date).getTime() - new Date(a.date).getTime()
+  })
 }
 
 export async function getPost(slug: string): Promise<Post | null> {
