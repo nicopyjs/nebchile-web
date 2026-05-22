@@ -56,12 +56,22 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
+            {/* Logo claro (modo claro) */}
             <Image
               src="https://www.nebchile.cl/hs-fs/hubfs/nebchile-logo-1.png?width=200&height=70&name=nebchile-logo-1.png"
               alt="NEB Chile - Ingeniería en Climatización"
               width={160}
               height={56}
-              className="h-14 w-auto dark:brightness-0 dark:invert"
+              className="h-14 w-auto block dark:hidden"
+              priority
+            />
+            {/* Logo oscuro (modo oscuro) */}
+            <Image
+              src="/Logo NEB Chile oscuro.jpg"
+              alt="NEB Chile - Ingeniería en Climatización"
+              width={160}
+              height={56}
+              className="h-14 w-auto hidden dark:block"
               priority
             />
           </Link>
