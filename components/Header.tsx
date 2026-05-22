@@ -51,7 +51,7 @@ export default function Header() {
   const { theme, toggle } = useTheme()
 
   return (
-    <header className="bg-white dark:bg-neb-black shadow-sm dark:shadow-neb-dark-border sticky top-0 z-50 border-b border-transparent dark:border-neb-dark-border">
+    <header className="bg-white dark:bg-black shadow-sm sticky top-0 z-50 border-b border-transparent dark:border-neb-dark-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}

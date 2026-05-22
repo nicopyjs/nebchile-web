@@ -3,17 +3,17 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="bg-neb-black dark:bg-neb-dark-bg text-white border-t border-neb-dark-border">
+    <footer className="bg-black text-white border-t border-neb-dark-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
             <Image
-              src="https://www.nebchile.cl/hs-fs/hubfs/nebchile-logo-1.png?width=200&height=70&name=nebchile-logo-1.png"
+              src="/Logo NEB Chile oscuro.jpg"
               alt="NEB Chile"
               width={140}
               height={49}
-              className="h-12 w-auto brightness-0 invert mb-4"
+              className="h-12 w-auto mb-4"
             />
             <p className="text-gray-400 text-sm leading-relaxed">
               NEB Chile es una empresa que se dedica al rubro de la instalación de Manejo de aire y Climatización en los edificios. Contamos con ingenieros expertos en la industria, desde la génesis del proyecto hasta una futura posventa y mantención.
