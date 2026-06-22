@@ -16,7 +16,7 @@ const SERVICIOS = [
     titleStart: 'Área de',
     titleGold: 'Instalaciones',
     href: '/servicios/area-de-instalaciones',
-    img: 'https://www.nebchile.cl/hubfs/nebchile-servicios-6.jpg',
+    img: '/images/general/nebchile-servicios-6.jpg',
     desc: 'Instalamos sistemas de climatización en proyectos en construcción, desde el diseño hasta la puesta en marcha.',
     items: [
       'Extracción de aire',
@@ -32,7 +32,7 @@ const SERVICIOS = [
     titleStart: 'Área de',
     titleGold: 'Mantención',
     href: '/servicios/area-de-mantencion',
-    img: 'https://www.nebchile.cl/hubfs/nebchile-servicios-8.jpg',
+    img: '/images/general/nebchile-servicios-8.jpg',
     desc: 'Mantenemos y operamos sistemas de calderas, climatización y redes de agua en edificios residenciales.',
     items: [
       'Calderas y Calefacción',
@@ -47,7 +47,7 @@ const SERVICIOS = [
     titleStart: 'Renovación de',
     titleGold: 'Centrales Térmicas',
     href: '/servicios/renovacion-de-centrales-termicas',
-    img: 'https://www.nebchile.cl/hubfs/nebchile-servicios-9.jpg',
+    img: '/images/general/nebchile-servicios-9.jpg',
     desc: 'Renovamos tu central térmica con la mejor tecnología del mercado y respaldo de marcas reconocidas.',
     items: [
       'Ahorro hasta 37% en gas',
@@ -62,7 +62,7 @@ const SERVICIOS = [
     titleStart: 'Generación de',
     titleGold: 'Proyectos',
     href: '/servicios/generacion-de-proyectos',
-    img: 'https://www.nebchile.cl/hubfs/nebchile-heads-2.jpg',
+    img: '/images/general/nebchile-heads-2.jpg',
     desc: 'Desde la ingeniería y diseño hasta la entrega final, acompañamos cada etapa del proyecto.',
     items: ['Ingeniería técnica', 'Diseño a medida', 'Ejecución en obra', 'Entrega documentada'],
   },
@@ -82,7 +82,7 @@ export default function Servicios() {
       <section className="relative bg-neb-black text-white overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://www.nebchile.cl/hubfs/nebchile-servicios-6.jpg"
+            src="/images/general/nebchile-servicios-6.jpg"
             alt="Servicios NEB Chile"
             fill
             priority

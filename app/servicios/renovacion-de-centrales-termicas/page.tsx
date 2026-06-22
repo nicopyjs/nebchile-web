@@ -35,7 +35,7 @@ export default function RenovacionCentralesTermicas() {
         titleStart="Renovación de"
         titleGold="Centrales Térmicas"
         subtitle="Renovamos tu central térmica con la mejor tecnología del mercado, respaldados por marcas reconocidas y un departamento de Ingeniería y Montaje especializado."
-        image="https://www.nebchile.cl/hubfs/nebchile-servicios-9.jpg"
+        image="/images/general/nebchile-servicios-9.jpg"
       />
       <ServiceFeaturePoints items={FEATURE_POINTS} />
 

@@ -12,18 +12,18 @@ export const metadata: Metadata = {
 }
 
 const PROYECTOS = [
-  { nombre: 'VESPUCIO MACUL TORRE E', constructora: 'Santolaya', pisos: '23 + cubierta + 2 subt.', deptos: '247', avance: '94', sistemas: 'Extracción de baños, extracción de subterráneos y presurización.', img: 'https://www.nebchile.cl/hubfs/VESPUCIO-MACUL-TORRE-E-1.jpg' },
-  { nombre: 'BUZETA', constructora: 'Santolaya', pisos: '19 + cubierta + 2 subt.', deptos: '234', avance: '80', sistemas: 'Extracción de baños, cocinas, subterráneos y presurización.', img: 'https://www.nebchile.cl/hubfs/BUZETA.jpg' },
-  { nombre: 'ARGOMEDO', constructora: 'Santa Fe', pisos: '12 + cubierta + 2 subt.', deptos: '177', avance: '85', sistemas: 'Extracción de baños, cocinas, subterráneos y presurización.', img: 'https://www.nebchile.cl/hubfs/ARGOMEDO.jpg' },
-  { nombre: 'COLÓN', constructora: 'Santa Fe', pisos: '14 + cubierta + 3 subt.', deptos: '52', avance: '82', sistemas: 'Extracción y presurización + calefacción a 1 departamento.', img: 'https://www.nebchile.cl/hubfs/COLON.jpg' },
-  { nombre: 'LAS TRANQUERAS', constructora: 'Santolaya', pisos: '9 + cubierta + 4 subt.', deptos: '95', avance: '71.4', sistemas: 'Extracción de baños, cocinas, subterráneos y presurización.', img: 'https://www.nebchile.cl/hubfs/LAS-TRANQUERAS.jpg' },
+  { nombre: 'VESPUCIO MACUL TORRE E', constructora: 'Santolaya', pisos: '23 + cubierta + 2 subt.', deptos: '247', avance: '94', sistemas: 'Extracción de baños, extracción de subterráneos y presurización.', img: '/images/general/VESPUCIO-MACUL-TORRE-E-1.jpg' },
+  { nombre: 'BUZETA', constructora: 'Santolaya', pisos: '19 + cubierta + 2 subt.', deptos: '234', avance: '80', sistemas: 'Extracción de baños, cocinas, subterráneos y presurización.', img: '/images/general/BUZETA.jpg' },
+  { nombre: 'ARGOMEDO', constructora: 'Santa Fe', pisos: '12 + cubierta + 2 subt.', deptos: '177', avance: '85', sistemas: 'Extracción de baños, cocinas, subterráneos y presurización.', img: '/images/general/ARGOMEDO.jpg' },
+  { nombre: 'COLÓN', constructora: 'Santa Fe', pisos: '14 + cubierta + 3 subt.', deptos: '52', avance: '82', sistemas: 'Extracción y presurización + calefacción a 1 departamento.', img: '/images/general/COLON.jpg' },
+  { nombre: 'LAS TRANQUERAS', constructora: 'Santolaya', pisos: '9 + cubierta + 4 subt.', deptos: '95', avance: '71.4', sistemas: 'Extracción de baños, cocinas, subterráneos y presurización.', img: '/images/general/LAS-TRANQUERAS.jpg' },
 ]
 
 const PROYECTOS_OTROS = [
-  { nombre: 'SANTA CRISTINA', img: 'https://www.nebchile.cl/hubfs/SANTA-CRISTINA.jpg' },
-  { nombre: 'LINCOYÁN', img: 'https://www.nebchile.cl/hubfs/LINCOYAN-2.jpg' },
-  { nombre: 'CHRISTIENSEN', img: 'https://www.nebchile.cl/hubfs/CHRISTIENSEN.jpg' },
-  { nombre: 'ECO QUILÍN I', img: 'https://www.nebchile.cl/hubfs/ECO-QUILIN-I.jpg' },
+  { nombre: 'SANTA CRISTINA', img: '/images/general/SANTA-CRISTINA.jpg' },
+  { nombre: 'LINCOYÁN', img: '/images/general/LINCOYAN-2.jpg' },
+  { nombre: 'CHRISTIENSEN', img: '/images/general/CHRISTIENSEN.jpg' },
+  { nombre: 'ECO QUILÍN I', img: '/images/general/ECO-QUILIN-I.jpg' },
 ]
 
 const STATS = [
@@ -40,7 +40,7 @@ export default function ProyectosInstalaciones() {
       <section className="relative bg-neb-black text-white overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://www.nebchile.cl/hubfs/nebchile-instalaciones.jpg"
+            src="/images/general/nebchile-instalaciones.jpg"
             alt="Proyectos de Instalación NEB Chile"
             fill
             priority

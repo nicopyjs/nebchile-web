@@ -7,28 +7,28 @@ const SERVICIOS = [
     title: 'Área de Instalaciones',
     href: '/servicios/area-de-instalaciones',
     desc: 'Instalamos sistemas de climatización en proyectos en construcción.',
-    image: 'https://www.nebchile.cl/hs-fs/hubfs/53049.png',
+    image: '/images/posts/53049.png',
   },
   {
     title: 'Área de Mantención',
     href: '/servicios/area-de-mantencion',
     desc: 'Mantenemos tus sistemas en perfecto estado de funcionamiento.',
     image:
-      'https://www.nebchile.cl/hs-fs/hubfs/Captura%20de%20pantalla%202025-01-15%20a%20la(s)%205.19.56%20p.%20m..png',
+      '/images/posts/Captura_de_pantalla_2025-01-15_a_la(s)_5.19.56_p._m..png',
   },
   {
     title: 'Renovación de Centrales Térmicas',
     href: '/servicios/renovacion-de-centrales-termicas',
     desc: 'Renovamos tu Central Térmica con la mejor tecnología del mercado.',
     image:
-      'https://www.nebchile.cl/hs-fs/hubfs/Captura%20de%20pantalla%202025-01-15%20a%20la(s)%205.09.37%20p.%20m..png',
+      '/images/posts/Captura_de_pantalla_2025-01-15_a_la(s)_5.09.37_p._m..png',
   },
   {
     title: 'Generación de Proyectos',
     href: '/servicios/generacion-de-proyectos',
     desc: 'Desde la ingeniería hasta la entrega final del proyecto.',
     image:
-      'https://www.nebchile.cl/hs-fs/hubfs/unwatermarked_Gemini_Generated_Image_ruf9v9ruf9v9ruf9.png',
+      '/images/posts/unwatermarked_Gemini_Generated_Image_ruf9v9ruf9v9ruf9.png',
   },
 ]
 

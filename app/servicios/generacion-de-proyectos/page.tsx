@@ -33,7 +33,7 @@ export default function GeneracionProyectos() {
         titleStart="Generación de"
         titleGold="Proyectos"
         subtitle="Desde la ingeniería y diseño hasta la entrega final del proyecto, acompañamos a nuestros clientes en cada etapa con asesoría técnica de alto nivel."
-        image="https://www.nebchile.cl/hubfs/nebchile-heads-2.jpg"
+        image="/images/general/nebchile-heads-2.jpg"
         imagePosition="center 30%"
       />
       <ServiceFeaturePoints items={FEATURE_POINTS} />

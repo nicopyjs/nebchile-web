@@ -17,7 +17,7 @@ const SLIDES: Slide[] = [
     title: 'MANTENCIÓN Y RENOVACIÓN DE SALAS DE CALDERA EN EDIFICIOS',
     desc: 'Aseguramos que tu Caldera esté en las Mejores Condiciones. Ingenieros expertos en Climatización con Costos y Plazos Certeros.',
     image:
-      'https://www.nebchile.cl/hs-fs/hubfs/unwatermarked_Gemini_Generated_Image_ruf9v9ruf9v9ruf9.png',
+      '/images/posts/unwatermarked_Gemini_Generated_Image_ruf9v9ruf9v9ruf9.png',
     primary: { label: 'Contáctanos', href: '/contacto' },
     secondary: { label: 'Quiénes Somos', href: '/quienes-somos' },
   },
@@ -26,7 +26,7 @@ const SLIDES: Slide[] = [
     title: 'AHORRO DE HASTA 37% EN CONSUMO DE GAS',
     desc: 'El cambio de la sala de calderas de Santos Dumont demostró cómo una renovación bien diseñada mejora eficiencia y reduce costos.',
     image:
-      'https://www.nebchile.cl/hs-fs/hubfs/Captura%20de%20pantalla%202025-01-15%20a%20la(s)%205.19.56%20p.%20m..png',
+      '/images/posts/Captura_de_pantalla_2025-01-15_a_la(s)_5.19.56_p._m..png',
     primary: { label: 'Ver casos', href: '/proyectos/mantenciones' },
     secondary: { label: 'Renovaciones', href: '/servicios/renovacion-de-centrales-termicas' },
   },
@@ -34,7 +34,7 @@ const SLIDES: Slide[] = [
     eyebrow: 'Instalaciones',
     title: 'CLIMATIZACIÓN PARA PROYECTOS EN CONSTRUCCIÓN',
     desc: 'Desde la ingeniería hasta la entrega final: instalamos sistemas de climatización en edificios residenciales y comerciales.',
-    image: 'https://www.nebchile.cl/hs-fs/hubfs/53049.png',
+    image: '/images/posts/53049.png',
     primary: { label: 'Ver servicios', href: '/servicios/area-de-instalaciones' },
     secondary: { label: 'Proyectos', href: '/proyectos/instalaciones' },
   },
@@ -43,7 +43,7 @@ const SLIDES: Slide[] = [
     title: 'INTERCAMBIADORES DE CALOR DE ALTA EFICIENCIA',
     desc: 'Renovamos tu Central Térmica con la mejor tecnología del mercado para máxima eficiencia energética.',
     image:
-      'https://www.nebchile.cl/hs-fs/hubfs/Captura%20de%20pantalla%202025-01-15%20a%20la(s)%205.09.37%20p.%20m..png',
+      '/images/posts/Captura_de_pantalla_2025-01-15_a_la(s)_5.09.37_p._m..png',
     primary: { label: 'Renovaciones', href: '/servicios/renovacion-de-centrales-termicas' },
     secondary: { label: 'Cotizar', href: '/contacto' },
   },

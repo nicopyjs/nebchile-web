@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 }
 
 const ITEMS = [
-  { label: 'Mantención de Calderas y Sistemas de Calefacción', img: 'https://www.nebchile.cl/hubfs/1a.png' },
-  { label: 'Operación de Centrales Térmicas', img: 'https://www.nebchile.cl/hubfs/2a.png' },
-  { label: 'Revisión y Mantención de Sistemas de Presurización', img: 'https://www.nebchile.cl/hubfs/3a.png' },
-  { label: 'Mantención de Redes de Agua', img: 'https://www.nebchile.cl/hubfs/4a.png' },
-  { label: 'Mantención de Sistemas de Extracción de Aire e Informes Técnicos periódicos', img: 'https://www.nebchile.cl/hubfs/5a.png' },
+  { label: 'Mantención de Calderas y Sistemas de Calefacción', img: '/images/general/1a.png' },
+  { label: 'Operación de Centrales Térmicas', img: '/images/general/2a.png' },
+  { label: 'Revisión y Mantención de Sistemas de Presurización', img: '/images/general/3a.png' },
+  { label: 'Mantención de Redes de Agua', img: '/images/general/4a.png' },
+  { label: 'Mantención de Sistemas de Extracción de Aire e Informes Técnicos periódicos', img: '/images/general/5a.png' },
 ]
 
 const FEATURE_POINTS = [
@@ -34,7 +34,7 @@ export default function AreaMantencion() {
         titleStart="Área de"
         titleGold="Mantención"
         subtitle="Mantenemos y operamos sistemas de calderas, climatización y redes de agua en edificios residenciales con los más altos estándares de calidad y seguridad."
-        image="https://www.nebchile.cl/hubfs/nebchile-servicios-8.jpg"
+        image="/images/general/nebchile-servicios-8.jpg"
       />
       <ServiceFeaturePoints items={FEATURE_POINTS} />
       <ServiceItemsGrid

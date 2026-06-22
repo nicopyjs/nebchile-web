@@ -12,22 +12,22 @@ export const metadata: Metadata = {
 }
 
 const PROYECTOS: Proyecto[] = [
-  { nombre: 'ECO CAPITAL', direccion: "Av. Libertador Bernardo O'Higgins #4103", comuna: 'Estación Central', edificios: 2, sistemas: ['2 Centrales Térmicas', '1 Sala de Bombas', 'Verticales de distribución de agua fría y caliente', 'Manejo de Aire'], img: 'https://www.nebchile.cl/hubfs/ECO-CAPITAL.jpg' },
-  { nombre: 'ECO ORIGEN', direccion: 'Av. Víctor Jara #3866', comuna: 'Estación Central', edificios: 1, sistemas: ['1 Central Térmica', '1 Sala de Bombas', 'Verticales de distribución de agua fría y caliente', 'Manejo de Aire'], img: 'https://www.nebchile.cl/hubfs/ECO-ORIGEN-1.jpg' },
-  { nombre: 'ELIODORO MIX', direccion: 'Av. Hernando de Aguirre #1191', comuna: 'Providencia', edificios: 2, sistemas: ['2 Centrales Térmicas', 'Calefacción', '1 Sala de Bombas', '2 Chillers', 'Manejo de Aire'], img: 'https://www.nebchile.cl/hubfs/ELIODORO-MIX.jpg' },
-  { nombre: 'ECO FUTURO II', direccion: 'Av. Radal #066', comuna: 'Estación Central', edificios: 2, sistemas: ['2 Centrales Térmicas', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire', 'Paneles Solares Térmicos'], img: 'https://www.nebchile.cl/hubfs/ECO-FUTURO-II.jpg' },
-  { nombre: 'EL TAMARUGO', direccion: 'Av. El Tamarugo #1080', comuna: 'Vitacura', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción'], img: 'https://www.nebchile.cl/hubfs/EL-TAMARUGO.jpg' },
-  { nombre: 'LOS CIPRESES', direccion: 'Av. Presidente Kennedy #5334', comuna: 'Vitacura', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción'], img: 'https://www.nebchile.cl/hubfs/LOS-CIPRESES.jpg' },
-  { nombre: 'LOS CASTAÑOS', direccion: 'Av. Nilo Azul #1820', comuna: 'Vitacura', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción'], img: 'https://www.nebchile.cl/hubfs/LOS-CASTANOS.jpg' },
-  { nombre: 'SANTA MAGDALENA', direccion: 'Av. Santa Magdalena #10', comuna: 'Providencia', edificios: 1, sistemas: ['1 Central Térmica'], img: 'https://www.nebchile.cl/hubfs/SANTA-MAGDALENA.jpg' },
-  { nombre: 'AGUSTÍN DEL CASTILLO', direccion: 'Av. Agustín del Castillo #2841', comuna: 'Vitacura', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire'], img: 'https://www.nebchile.cl/hubfs/AGUSTIN-DEL-CASTILLO.jpg' },
-  { nombre: 'SANTA ELENA', direccion: 'Av. Padre Orellana #1656', comuna: 'Santiago', edificios: 2, sistemas: ['2 Centrales Térmicas'], img: 'https://www.nebchile.cl/hubfs/SANTA-ELENA.jpg' },
-  { nombre: 'GRAN MANANTIAL', direccion: 'C. San Ignacio de Loyola #1372', comuna: 'Santiago', edificios: 1, sistemas: ['1 Central Térmica'], img: 'https://www.nebchile.cl/hubfs/GRAN-MANANTIAL.jpg' },
-  { nombre: 'ECO ENCALADA', direccion: 'Av. Almirante Blanco Encalada #2527', comuna: 'Santiago', edificios: 3, sistemas: ['2 Centrales Térmicas', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire'], img: 'https://www.nebchile.cl/hubfs/ECO-ENCALADA.jpg' },
-  { nombre: 'CONQUISTA ESPAÑA', direccion: '', comuna: '', edificios: 1, sistemas: [], img: 'https://www.nebchile.cl/hubfs/CONQUISTA-ESPANA.jpg' },
-  { nombre: 'ECO URBE', direccion: 'Av. Mujica #55', comuna: 'Ñuñoa', edificios: 2, sistemas: ['2 Centrales Térmicas', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire', 'Paneles Solares Térmicos'], img: 'https://www.nebchile.cl/hubfs/ECO-URBE.jpg' },
-  { nombre: 'HERMANOS CABOT C', direccion: 'Av. Hermanos Cabot #6671', comuna: 'Las Condes', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire'], img: 'https://www.nebchile.cl/hubfs/HERMANOS-CABOT-C.jpg' },
-  { nombre: 'LUIS THAYER OJEDA', direccion: 'Av. Luis Thayer Ojeda #1153', comuna: 'Providencia', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire', 'Paneles Solares Térmicos'], img: 'https://www.nebchile.cl/hubfs/LUIS-THAYER-OJEDA.jpg' },
+  { nombre: 'ECO CAPITAL', direccion: "Av. Libertador Bernardo O'Higgins #4103", comuna: 'Estación Central', edificios: 2, sistemas: ['2 Centrales Térmicas', '1 Sala de Bombas', 'Verticales de distribución de agua fría y caliente', 'Manejo de Aire'], img: '/images/general/ECO-CAPITAL.jpg' },
+  { nombre: 'ECO ORIGEN', direccion: 'Av. Víctor Jara #3866', comuna: 'Estación Central', edificios: 1, sistemas: ['1 Central Térmica', '1 Sala de Bombas', 'Verticales de distribución de agua fría y caliente', 'Manejo de Aire'], img: '/images/general/ECO-ORIGEN-1.jpg' },
+  { nombre: 'ELIODORO MIX', direccion: 'Av. Hernando de Aguirre #1191', comuna: 'Providencia', edificios: 2, sistemas: ['2 Centrales Térmicas', 'Calefacción', '1 Sala de Bombas', '2 Chillers', 'Manejo de Aire'], img: '/images/general/ELIODORO-MIX.jpg' },
+  { nombre: 'ECO FUTURO II', direccion: 'Av. Radal #066', comuna: 'Estación Central', edificios: 2, sistemas: ['2 Centrales Térmicas', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire', 'Paneles Solares Térmicos'], img: '/images/general/ECO-FUTURO-II.jpg' },
+  { nombre: 'EL TAMARUGO', direccion: 'Av. El Tamarugo #1080', comuna: 'Vitacura', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción'], img: '/images/general/EL-TAMARUGO.jpg' },
+  { nombre: 'LOS CIPRESES', direccion: 'Av. Presidente Kennedy #5334', comuna: 'Vitacura', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción'], img: '/images/general/LOS-CIPRESES.jpg' },
+  { nombre: 'LOS CASTAÑOS', direccion: 'Av. Nilo Azul #1820', comuna: 'Vitacura', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción'], img: '/images/general/LOS-CASTANOS.jpg' },
+  { nombre: 'SANTA MAGDALENA', direccion: 'Av. Santa Magdalena #10', comuna: 'Providencia', edificios: 1, sistemas: ['1 Central Térmica'], img: '/images/general/SANTA-MAGDALENA.jpg' },
+  { nombre: 'AGUSTÍN DEL CASTILLO', direccion: 'Av. Agustín del Castillo #2841', comuna: 'Vitacura', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire'], img: '/images/general/AGUSTIN-DEL-CASTILLO.jpg' },
+  { nombre: 'SANTA ELENA', direccion: 'Av. Padre Orellana #1656', comuna: 'Santiago', edificios: 2, sistemas: ['2 Centrales Térmicas'], img: '/images/general/SANTA-ELENA.jpg' },
+  { nombre: 'GRAN MANANTIAL', direccion: 'C. San Ignacio de Loyola #1372', comuna: 'Santiago', edificios: 1, sistemas: ['1 Central Térmica'], img: '/images/general/GRAN-MANANTIAL.jpg' },
+  { nombre: 'ECO ENCALADA', direccion: 'Av. Almirante Blanco Encalada #2527', comuna: 'Santiago', edificios: 3, sistemas: ['2 Centrales Térmicas', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire'], img: '/images/general/ECO-ENCALADA.jpg' },
+  { nombre: 'CONQUISTA ESPAÑA', direccion: '', comuna: '', edificios: 1, sistemas: [], img: '/images/general/CONQUISTA-ESPANA.jpg' },
+  { nombre: 'ECO URBE', direccion: 'Av. Mujica #55', comuna: 'Ñuñoa', edificios: 2, sistemas: ['2 Centrales Térmicas', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire', 'Paneles Solares Térmicos'], img: '/images/general/ECO-URBE.jpg' },
+  { nombre: 'HERMANOS CABOT C', direccion: 'Av. Hermanos Cabot #6671', comuna: 'Las Condes', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire'], img: '/images/general/HERMANOS-CABOT-C.jpg' },
+  { nombre: 'LUIS THAYER OJEDA', direccion: 'Av. Luis Thayer Ojeda #1153', comuna: 'Providencia', edificios: 1, sistemas: ['1 Central Térmica', 'Calefacción', '1 Sala de Bombas', 'Verticales de distribución de agua', 'Manejo de Aire', 'Paneles Solares Térmicos'], img: '/images/general/LUIS-THAYER-OJEDA.jpg' },
 ]
 
 const STATS = [
@@ -44,7 +44,7 @@ export default function ProyectosMantenciones() {
       <section className="relative bg-neb-black text-white overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://www.nebchile.cl/hubfs/BANNERS_HEAD-5.jpg"
+            src="/images/general/BANNERS_HEAD-5.jpg"
             alt="Proyectos de Mantención NEB Chile"
             fill
             priority

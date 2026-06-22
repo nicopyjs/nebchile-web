@@ -58,7 +58,7 @@ export default function Header() {
           <Link href="/" className="flex-shrink-0">
             {/* Logo claro (modo claro) */}
             <Image
-              src="https://www.nebchile.cl/hs-fs/hubfs/nebchile-logo-1.png?width=200&height=70&name=nebchile-logo-1.png"
+              src="/images/general/nebchile-logo-1.png"
               alt="NEB Chile - Ingeniería en Climatización"
               width={160}
               height={56}

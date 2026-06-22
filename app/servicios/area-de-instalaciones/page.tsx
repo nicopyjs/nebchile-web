@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 }
 
 const ITEMS = [
-  { label: 'Extracción de aire en Baños, Cocinas, Quinchos, Subterráneos, entre otros.', img: 'https://www.nebchile.cl/hubfs/1-2.png' },
-  { label: 'Sistemas de Presurización', img: 'https://www.nebchile.cl/hubfs/2-1.png' },
-  { label: 'Calefacción', img: 'https://www.nebchile.cl/hubfs/3-1.png' },
-  { label: 'Centrales Térmicas', img: 'https://www.nebchile.cl/hubfs/4-1.png' },
-  { label: 'Redes de Baja Presión y Tratamientos de Agua', img: 'https://www.nebchile.cl/hubfs/5.png' },
-  { label: 'Aire Acondicionado', img: 'https://www.nebchile.cl/hubfs/6.png' },
+  { label: 'Extracción de aire en Baños, Cocinas, Quinchos, Subterráneos, entre otros.', img: '/images/general/1-2.png' },
+  { label: 'Sistemas de Presurización', img: '/images/general/2-1.png' },
+  { label: 'Calefacción', img: '/images/general/3-1.png' },
+  { label: 'Centrales Térmicas', img: '/images/general/4-1.png' },
+  { label: 'Redes de Baja Presión y Tratamientos de Agua', img: '/images/general/5.png' },
+  { label: 'Aire Acondicionado', img: '/images/general/6.png' },
 ]
 
 const FEATURE_POINTS = [
@@ -35,7 +35,7 @@ export default function AreaInstalaciones() {
         titleStart="Área de"
         titleGold="Instalaciones"
         subtitle="Instalamos sistemas de climatización en proyectos en construcción, con un alto nivel de profesionalismo y los mejores estándares de calidad."
-        image="https://www.nebchile.cl/hubfs/nebchile-servicios-6.jpg"
+        image="/images/general/nebchile-servicios-6.jpg"
       />
       <ServiceFeaturePoints items={FEATURE_POINTS} />
       <ServiceItemsGrid

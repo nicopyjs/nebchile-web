@@ -11,15 +11,15 @@ export const metadata: Metadata = {
 }
 
 const CLIENT_LOGOS = [
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-1.png', name: 'Anwo' },
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-2.png', name: 'Cosmoplas' },
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-3.png', name: 'Ariston' },
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-4.png', name: 'Immergas' },
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-5.png', name: 'Baxi' },
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-6.png', name: 'Rinnai' },
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-7.png', name: 'NovaClima' },
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-8.png', name: 'Winter' },
-  { src: 'https://www.nebchile.cl/hubfs/nebchile-client-9.png', name: 'Sime' },
+  { src: '/images/general/nebchile-client-1.png', name: 'Anwo' },
+  { src: '/images/general/nebchile-client-2.png', name: 'Cosmoplas' },
+  { src: '/images/general/nebchile-client-3.png', name: 'Ariston' },
+  { src: '/images/general/nebchile-client-4.png', name: 'Immergas' },
+  { src: '/images/general/nebchile-client-5.png', name: 'Baxi' },
+  { src: '/images/general/nebchile-client-6.png', name: 'Rinnai' },
+  { src: '/images/general/nebchile-client-7.png', name: 'NovaClima' },
+  { src: '/images/general/nebchile-client-8.png', name: 'Winter' },
+  { src: '/images/general/nebchile-client-9.png', name: 'Sime' },
 ]
 
 const STATS = [
@@ -29,10 +29,10 @@ const STATS = [
   { value: 100, suffix: '%', label: 'Personal certificado SEC' },
 ]
 
-const TEAM_HERO = 'https://www.nebchile.cl/hubfs/nebchile-nosotros-OK.jpg'
-const LEADER_PHOTO = 'https://www.nebchile.cl/hubfs/nebchile-heads-1.jpg'
+const TEAM_HERO = '/images/general/nebchile-nosotros-OK.jpg'
+const LEADER_PHOTO = '/images/general/nebchile-heads-1.jpg'
 const SEC_BADGE =
-  'https://www.nebchile.cl/hs-fs/hubfs/nebchile-SEC-300x300.jpg?width=200&height=200&name=nebchile-SEC-300x300.jpg'
+  '/images/general/nebchile-SEC-300x300.jpg'
 
 export default function QuienesSomos() {
   return (
