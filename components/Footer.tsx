@@ -52,12 +52,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+56972932533" className="hover:text-neb-gold transition-colors">
-                  +56 9 7293 2533
+                <a href="tel:+56964941468" className="hover:text-neb-gold transition-colors">
+                  +56 9 6494 1468
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/56972932533" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/56964941468" target="_blank" rel="noopener noreferrer"
                   className="hover:text-neb-gold transition-colors">
                   WhatsApp
                 </a>

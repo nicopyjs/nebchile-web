@@ -73,14 +73,14 @@ export default function Contacto() {
                 <span className="text-neb-gold text-xl mt-0.5">📞</span>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Teléfono</p>
-                  <a href="tel:+56972932533" className="text-gray-800 dark:text-gray-200 hover:text-neb-gold dark:hover:text-neb-gold transition-colors">+56 9 7293 2533</a>
+                  <a href="tel:+56964941468" className="text-gray-800 dark:text-gray-200 hover:text-neb-gold dark:hover:text-neb-gold transition-colors">+56 9 6494 1468</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-500 text-xl mt-0.5">💬</span>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">WhatsApp</p>
-                  <a href="https://wa.me/56972932533" target="_blank" rel="noopener noreferrer"
+                  <a href="https://wa.me/56964941468" target="_blank" rel="noopener noreferrer"
                     className="text-gray-800 dark:text-gray-200 hover:text-neb-gold dark:hover:text-neb-gold transition-colors">Escríbenos directamente</a>
                 </div>
               </li>

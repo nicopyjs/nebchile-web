@@ -56,7 +56,7 @@ export default function ServiceCta({
               <span className="arrow-slide inline-block">→</span>
             </Link>
             <a
-              href="https://wa.me/56972932533"
+              href="https://wa.me/56964941468"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-3 bg-white text-neb-black font-bold px-8 py-4 rounded-lg hover:bg-neb-black hover:text-white transition-all hover:scale-[1.02] border-2 border-neb-black"
